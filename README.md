@@ -15,3 +15,7 @@ This repository contains R code mainly using the packages [Seurat](https://satij
   * Use an annotated reference dataset to annotate cell types
   * Perform dimensional reduction (PCA & UMAP)
   * Conduct differential expression analyses in MAST
+
+### [Alzheimer's GWAS 1Mb genes list](https://github.com/jgamache014/Alzheimers_GWAS_1Mb_genes_list)
+
+This project supplements the snRNA-seq workflow to further investigate underlying regulatory mechanisms of late-onset Alzheimer's disease (LOAD). Here, [biomaRt](https://bioconductor.org/packages/release/bioc/html/biomaRt.html) is used to extract gene names in 1Mb genomic regions surrounding all known LOAD GWAS loci, based on the most recent GWAS meta-analysis to date ([Bellenguez et al., 2020](https://www.medrxiv.org/content/10.1101/2020.10.01.20200659v2.full-text)). 
